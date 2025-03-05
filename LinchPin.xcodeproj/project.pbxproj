@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		69B3AF122D65A47100853704 /* Nexum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nexum.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69B3AF222D65A47200853704 /* NexumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69B3AF2C2D65A47200853704 /* NexumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3AF122D65A47100853704 /* LinchPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinchPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3AF222D65A47200853704 /* LinchPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinchPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3AF2C2D65A47200853704 /* LinchPinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinchPinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -73,9 +73,9 @@
 		69B3AF132D65A47100853704 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69B3AF122D65A47100853704 /* Nexum.app */,
-				69B3AF222D65A47200853704 /* NexumTests.xctest */,
-				69B3AF2C2D65A47200853704 /* NexumUITests.xctest */,
+				69B3AF122D65A47100853704 /* LinchPin.app */,
+				69B3AF222D65A47200853704 /* LinchPinTests.xctest */,
+				69B3AF2C2D65A47200853704 /* LinchPinUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69B3AF112D65A47100853704 /* Nexum */ = {
+		69B3AF112D65A47100853704 /* LinchPin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "Nexum" */;
+			buildConfigurationList = 69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPin" */;
 			buildPhases = (
 				69B3AF0E2D65A47100853704 /* Sources */,
 				69B3AF0F2D65A47100853704 /* Frameworks */,
@@ -98,16 +98,16 @@
 			fileSystemSynchronizedGroups = (
 				69B3AF142D65A47100853704 /* Nexum */,
 			);
-			name = Nexum;
+			name = LinchPin;
 			packageProductDependencies = (
 			);
 			productName = Nexum;
-			productReference = 69B3AF122D65A47100853704 /* Nexum.app */;
+			productReference = 69B3AF122D65A47100853704 /* LinchPin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69B3AF212D65A47200853704 /* NexumTests */ = {
+		69B3AF212D65A47200853704 /* LinchPinTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "NexumTests" */;
+			buildConfigurationList = 69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinTests" */;
 			buildPhases = (
 				69B3AF1E2D65A47200853704 /* Sources */,
 				69B3AF1F2D65A47200853704 /* Frameworks */,
@@ -121,16 +121,16 @@
 			fileSystemSynchronizedGroups = (
 				69B3AF252D65A47200853704 /* NexumTests */,
 			);
-			name = NexumTests;
+			name = LinchPinTests;
 			packageProductDependencies = (
 			);
 			productName = NexumTests;
-			productReference = 69B3AF222D65A47200853704 /* NexumTests.xctest */;
+			productReference = 69B3AF222D65A47200853704 /* LinchPinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		69B3AF2B2D65A47200853704 /* NexumUITests */ = {
+		69B3AF2B2D65A47200853704 /* LinchPinUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "NexumUITests" */;
+			buildConfigurationList = 69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinUITests" */;
 			buildPhases = (
 				69B3AF282D65A47200853704 /* Sources */,
 				69B3AF292D65A47200853704 /* Frameworks */,
@@ -144,11 +144,11 @@
 			fileSystemSynchronizedGroups = (
 				69B3AF2F2D65A47200853704 /* NexumUITests */,
 			);
-			name = NexumUITests;
+			name = LinchPinUITests;
 			packageProductDependencies = (
 			);
 			productName = NexumUITests;
-			productReference = 69B3AF2C2D65A47200853704 /* NexumUITests.xctest */;
+			productReference = 69B3AF2C2D65A47200853704 /* LinchPinUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					69B3AF112D65A47100853704 = {
 						CreatedOnToolsVersion = 16.0;
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "Nexum" */;
+			buildConfigurationList = 69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "LinchPin" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,9 +187,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69B3AF112D65A47100853704 /* Nexum */,
-				69B3AF212D65A47200853704 /* NexumTests */,
-				69B3AF2B2D65A47200853704 /* NexumUITests */,
+				69B3AF112D65A47100853704 /* LinchPin */,
+				69B3AF212D65A47200853704 /* LinchPinTests */,
+				69B3AF2B2D65A47200853704 /* LinchPinUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,12 +245,12 @@
 /* Begin PBXTargetDependency section */
 		69B3AF242D65A47200853704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69B3AF112D65A47100853704 /* Nexum */;
+			target = 69B3AF112D65A47100853704 /* LinchPin */;
 			targetProxy = 69B3AF232D65A47200853704 /* PBXContainerItemProxy */;
 		};
 		69B3AF2E2D65A47200853704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69B3AF112D65A47100853704 /* Nexum */;
+			target = 69B3AF112D65A47100853704 /* LinchPin */;
 			targetProxy = 69B3AF2D2D65A47200853704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -291,6 +291,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 64FPM295T4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -354,6 +355,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 64FPM295T4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -380,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nexum/Preview Content\"";
@@ -398,6 +401,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = balaji.Nexum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -409,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nexum/Preview Content\"";
@@ -427,6 +432,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = balaji.Nexum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,7 +445,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64FPM295T4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
@@ -448,7 +453,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nexum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nexum";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinchPin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinchPin";
 			};
 			name = Debug;
 		};
@@ -458,7 +463,6 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64FPM295T4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
@@ -467,7 +471,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nexum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nexum";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinchPin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinchPin";
 			};
 			name = Release;
 		};
@@ -476,7 +480,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64FPM295T4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = balaji.NexumUITests;
@@ -493,7 +496,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64FPM295T4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = balaji.NexumUITests;
@@ -508,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "Nexum" */ = {
+		69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "LinchPin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF342D65A47200853704 /* Debug */,
@@ -517,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "Nexum" */ = {
+		69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF372D65A47200853704 /* Debug */,
@@ -526,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "NexumTests" */ = {
+		69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF3A2D65A47200853704 /* Debug */,
@@ -535,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "NexumUITests" */ = {
+		69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF3D2D65A47200853704 /* Debug */,

@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let urlString: String = "https://bharathuniv.tech"
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        WebView(url: URL(string: urlString)!)
+            .edgesIgnoringSafeArea(.all) // Makes it fullscreen
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
