@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		69B3AF122D65A47100853704 /* LinchPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinchPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69B3AF222D65A47200853704 /* LinchPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinchPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69B3AF2C2D65A47200853704 /* LinchPinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinchPinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3AF122D65A47100853704 /* Srishty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Srishty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3AF222D65A47200853704 /* SrishtyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SrishtyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B3AF2C2D65A47200853704 /* SrishtyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SrishtyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		69B3AF142D65A47100853704 /* Nexum */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Nexum; sourceTree = "<group>"; };
-		69B3AF252D65A47200853704 /* NexumTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NexumTests; sourceTree = "<group>"; };
-		69B3AF2F2D65A47200853704 /* NexumUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NexumUITests; sourceTree = "<group>"; };
+		69B3AF142D65A47100853704 /* Srishty */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Srishty; sourceTree = "<group>"; };
+		69B3AF252D65A47200853704 /* SrishtyTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SrishtyTests; sourceTree = "<group>"; };
+		69B3AF2F2D65A47200853704 /* SrishtyUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SrishtyUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 		69B3AF092D65A47100853704 = {
 			isa = PBXGroup;
 			children = (
-				69B3AF142D65A47100853704 /* Nexum */,
-				69B3AF252D65A47200853704 /* NexumTests */,
-				69B3AF2F2D65A47200853704 /* NexumUITests */,
+				69B3AF142D65A47100853704 /* Srishty */,
+				69B3AF252D65A47200853704 /* SrishtyTests */,
+				69B3AF2F2D65A47200853704 /* SrishtyUITests */,
 				69B3AF132D65A47100853704 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 		69B3AF132D65A47100853704 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69B3AF122D65A47100853704 /* LinchPin.app */,
-				69B3AF222D65A47200853704 /* LinchPinTests.xctest */,
-				69B3AF2C2D65A47200853704 /* LinchPinUITests.xctest */,
+				69B3AF122D65A47100853704 /* Srishty.app */,
+				69B3AF222D65A47200853704 /* SrishtyTests.xctest */,
+				69B3AF2C2D65A47200853704 /* SrishtyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69B3AF112D65A47100853704 /* LinchPin */ = {
+		69B3AF112D65A47100853704 /* Srishty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPin" */;
+			buildConfigurationList = 69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "Srishty" */;
 			buildPhases = (
 				69B3AF0E2D65A47100853704 /* Sources */,
 				69B3AF0F2D65A47100853704 /* Frameworks */,
@@ -96,18 +96,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				69B3AF142D65A47100853704 /* Nexum */,
+				69B3AF142D65A47100853704 /* Srishty */,
 			);
-			name = LinchPin;
+			name = Srishty;
 			packageProductDependencies = (
 			);
 			productName = Nexum;
-			productReference = 69B3AF122D65A47100853704 /* LinchPin.app */;
+			productReference = 69B3AF122D65A47100853704 /* Srishty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		69B3AF212D65A47200853704 /* LinchPinTests */ = {
+		69B3AF212D65A47200853704 /* SrishtyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinTests" */;
+			buildConfigurationList = 69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "SrishtyTests" */;
 			buildPhases = (
 				69B3AF1E2D65A47200853704 /* Sources */,
 				69B3AF1F2D65A47200853704 /* Frameworks */,
@@ -119,18 +119,18 @@
 				69B3AF242D65A47200853704 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				69B3AF252D65A47200853704 /* NexumTests */,
+				69B3AF252D65A47200853704 /* SrishtyTests */,
 			);
-			name = LinchPinTests;
+			name = SrishtyTests;
 			packageProductDependencies = (
 			);
 			productName = NexumTests;
-			productReference = 69B3AF222D65A47200853704 /* LinchPinTests.xctest */;
+			productReference = 69B3AF222D65A47200853704 /* SrishtyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		69B3AF2B2D65A47200853704 /* LinchPinUITests */ = {
+		69B3AF2B2D65A47200853704 /* SrishtyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinUITests" */;
+			buildConfigurationList = 69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "SrishtyUITests" */;
 			buildPhases = (
 				69B3AF282D65A47200853704 /* Sources */,
 				69B3AF292D65A47200853704 /* Frameworks */,
@@ -142,13 +142,13 @@
 				69B3AF2E2D65A47200853704 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				69B3AF2F2D65A47200853704 /* NexumUITests */,
+				69B3AF2F2D65A47200853704 /* SrishtyUITests */,
 			);
-			name = LinchPinUITests;
+			name = SrishtyUITests;
 			packageProductDependencies = (
 			);
 			productName = NexumUITests;
-			productReference = 69B3AF2C2D65A47200853704 /* LinchPinUITests.xctest */;
+			productReference = 69B3AF2C2D65A47200853704 /* SrishtyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					69B3AF112D65A47100853704 = {
 						CreatedOnToolsVersion = 16.0;
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "LinchPin" */;
+			buildConfigurationList = 69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "Srishty" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,9 +187,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69B3AF112D65A47100853704 /* LinchPin */,
-				69B3AF212D65A47200853704 /* LinchPinTests */,
-				69B3AF2B2D65A47200853704 /* LinchPinUITests */,
+				69B3AF112D65A47100853704 /* Srishty */,
+				69B3AF212D65A47200853704 /* SrishtyTests */,
+				69B3AF2B2D65A47200853704 /* SrishtyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,12 +245,12 @@
 /* Begin PBXTargetDependency section */
 		69B3AF242D65A47200853704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69B3AF112D65A47100853704 /* LinchPin */;
+			target = 69B3AF112D65A47100853704 /* Srishty */;
 			targetProxy = 69B3AF232D65A47200853704 /* PBXContainerItemProxy */;
 		};
 		69B3AF2E2D65A47200853704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 69B3AF112D65A47100853704 /* LinchPin */;
+			target = 69B3AF112D65A47100853704 /* Srishty */;
 			targetProxy = 69B3AF2D2D65A47200853704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -315,6 +315,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -372,6 +373,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -385,7 +387,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Nexum/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Srishty/Preview Content\"";
 				DEVELOPMENT_TEAM = 64FPM295T4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -394,12 +396,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = balaji.Nexum;
+				PRODUCT_BUNDLE_IDENTIFIER = balaji.Srishty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -416,7 +419,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Nexum/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Srishty/Preview Content\"";
 				DEVELOPMENT_TEAM = 64FPM295T4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -425,12 +428,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = balaji.Nexum;
+				PRODUCT_BUNDLE_IDENTIFIER = balaji.Srishty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -453,7 +457,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinchPin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinchPin";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Srishty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Srishty";
 			};
 			name = Debug;
 		};
@@ -471,7 +475,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinchPin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinchPin";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Srishty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Srishty";
 			};
 			name = Release;
 		};
@@ -510,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "LinchPin" */ = {
+		69B3AF0D2D65A47100853704 /* Build configuration list for PBXProject "Srishty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF342D65A47200853704 /* Debug */,
@@ -519,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPin" */ = {
+		69B3AF362D65A47200853704 /* Build configuration list for PBXNativeTarget "Srishty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF372D65A47200853704 /* Debug */,
@@ -528,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinTests" */ = {
+		69B3AF392D65A47200853704 /* Build configuration list for PBXNativeTarget "SrishtyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF3A2D65A47200853704 /* Debug */,
@@ -537,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "LinchPinUITests" */ = {
+		69B3AF3C2D65A47200853704 /* Build configuration list for PBXNativeTarget "SrishtyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69B3AF3D2D65A47200853704 /* Debug */,

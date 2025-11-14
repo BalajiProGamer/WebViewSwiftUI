@@ -1,14 +1,14 @@
 //
-//  NexumApp.swift
-//  Nexum
+//  SrishtyApp.swift
+//  Srishty
 //
-//  Created by Balaji Balamurugan on 2/19/25.
+//  Created by Balaji on 2025-11-14.
 //
 
 import SwiftUI
 
 @main
-struct NexumApp: App {
+struct SrishtyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
